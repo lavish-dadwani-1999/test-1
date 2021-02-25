@@ -1,0 +1,145 @@
+.sub-nav .flex{
+    justify-content: space-between;
+}
+.container{
+    padding: 0;
+    
+}
+.sub-nav{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+
+
+.showcase-2{
+    padding: 16px;
+    display: flex;
+    flex-flow: row;
+    
+}
+.product-photo{
+    flex-flow: row;
+    position: sticky;
+    z-index: 2;
+    width: 42%;
+    align-self: flex-start;
+}
+.sub-product-photo{
+    flex-flow: column;
+    width: 100%;
+    position: relative;
+    align-items: stretch;
+    align-content: stretch;
+    display: flex;
+}
+.side-photo{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    
+}
+.item-photo{
+    height: 68px;
+    width: 60px;
+    border:none;
+
+}
+.sub-item-photo{
+    padding: 4px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.sub-item-photo:hover{
+    border: 1px solid blue;
+}
+.big-photo{
+    max-width:400px ;
+    max-height:492px ;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    margin-left: 10px;
+}
+.photo-btn{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.row{
+   
+    display: flex;
+    width: 100%;
+}
+.row li button{
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 0.1);
+    float: left;
+    color: #fff;
+    border: none;
+    
+    
+}
+.p3-btn{
+    display: inline-block;
+}
+.inner-p3-btn{
+    padding: 15px 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 0.1);
+    
+    color: #fff;
+
+}
+.btn-1{
+    background-color: #ff9f00;
+    padding: 20px 60px
+}
+.btn-2{
+    background-color: orangered;
+    float: right;
+    padding: 20px 85px;
+  
+    margin-left: 15px;
+}
+
+
+
+.det-1 ul{
+    display: flex;
+}
+.det-1 ul li{
+    margin: 0 10px;
+    color: #878787;
+}
+.sub-details-2 h4{
+    color: #878787;
+}
+.price h1,
+.price h2,
+.price h4,
+.price i{
+    margin-left: 10px;
+
+}
+
+.price-head{
+    float: left;
+    flex-flow: column;
+}
+.th2 p,
+.th2 span{
+    margin-left: 10px;
+}
+.th2 p{
+    background-color:#26a541 ;
+    border-radius: 10px;
+    padding: 0 5px;
+    color: #fff;
+}
+.th2 span{
+    color: #878787;
+    font-weight:bold ;
+}
